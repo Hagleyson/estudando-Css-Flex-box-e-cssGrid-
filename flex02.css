@@ -1,0 +1,43 @@
+.flex-container2 {
+  display: flex;
+  height: 300px;
+  width: 600px;
+}
+
+.flex-container2 div:nth-child(3) {
+  background-color: indianred;
+  order: -1;
+  /*acrescenta essa order ao elemento e 
+  os outros que tem uma order menor são 
+  mostrados primeiro*/
+
+  /*alinha o elemento */
+  align-self: stretch;
+  align-self: center;
+  align-self: flex-end;
+  align-self: flex-start;
+}
+.flex-container2 div {
+  width: 100px;
+  flex-grow: 1;
+  flex-shrink: 1; /*mesma lógica do grow só que para encolher*/
+  /*
+  flex-grow
+  [elemento1=p1,elemento2=p1,elemento3=p1,elemento4=p1]=4
+  vai pegar o tamanho total da div pai e vai dividir pelo
+  total de pesos
+    600/4= 150
+    cada elemento vai ter o tamanho de 150px
+  */
+}
+.flex-container2 div:nth-child(2) {
+  background-color: indigo;
+  color: white;
+  flex-grow: 2;
+  /*[elemento1=p1,elemento2=p2,elemento3=p1,elemento4=p1]=5
+  600/ = 120
+  todos elementos vão ter 120px excerto o elemento 2.
+  o elemento 2 vai ficar com 240px
+
+  */
+}

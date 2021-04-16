@@ -1,0 +1,13 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+div {
+  border: solid 5px blue;
+  font-size: 40px;
+  margin: 5px;
+}
+.big {
+  font-size: 1.5em;
+}

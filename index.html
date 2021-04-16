@@ -4,60 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="flex01.css" />
+    <link rel="stylesheet" href="flex02.css" />
     <title>Document</title>
-    <style>
-      div {
-        border: solid 5px blue;
-        font-size: 40px;
-        margin: 5px;
-      }
-      .flex-container {
-        width: 50%;
-        height: 200px;
-        display: flex;
-        flex-direction: column;
-        flex-direction: column-reverse;
-        flex-direction: row-reverse;
-        flex-direction: row;
-        flex-wrap: wrap; /*Respeita o tamanho*/
-        /*nowrap não respeita o tamanho*/
-        flex-wrap: wrap-reverse;
-
-        /*flex-flow é uma junção das propriedades 
-        flex-direction e flex-wrap.*/
-        flex-flow: row wrap;
-        /*flex-flow: column-reverse wrap;*/
-
-        justify-content: flex-start;
-        justify-content: flex-end;
-        justify-content: center;
-        justify-content: space-around;
-        justify-content: space-between;
-
-        /*Cross axis*/
-        height: 400px;
-        align-items: stretch; /*Alinhamento padrão*/
-        align-items: baseline; /*alinhnamento pela linha da base*/
-        align-items: flex-start; /*pelo inicio*/
-        align-items: flex-end; /*pelo fim*/
-        align-items: center; /*Centro*/
-
-        /*Mais de uma linha*/
-        align-content: flex-start;
-        align-content: flex-end;
-        align-content: center;
-        align-content: space-around;
-        align-content: space-between;
-      }
-
-      .big {
-        font-size: 1.5em;
-      }
-    </style>
   </head>
 
   <body>
-    <div class="flex-container">
+    <div class="flex-container1">
       <div>1</div>
       <div>2</div>
       <div class="big">3</div>
@@ -68,6 +22,12 @@
       <div>8</div>
       <div>9</div>
       <div>10</div>
+    </div>
+    <div class="flex-container2">
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+      <div>4</div>
     </div>
   </body>
 </html>
