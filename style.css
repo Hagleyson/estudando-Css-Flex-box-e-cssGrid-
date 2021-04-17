@@ -6,8 +6,23 @@
 div {
   border: solid 5px blue;
   font-size: 40px;
-  margin: 5px;
 }
 .big {
   font-size: 1.5em;
+}
+.title {
+  text-align: center;
+  text-decoration: underline;
+}
+.grid2 > div,
+.grid div {
+  text-align: center;
+}
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  border: solid 5px dodgerblue;
+  background: #fff;
 }

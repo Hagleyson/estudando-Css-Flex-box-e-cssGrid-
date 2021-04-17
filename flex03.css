@@ -3,6 +3,7 @@
   flex-direction: column;
   flex-direction: row;
   width: 500px;
+  margin: 5px;
 }
 .flex-container3 div {
   flex-basis: 100px; /*forma oficial de definir o tamanho de acordo com o flex direction*/

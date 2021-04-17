@@ -1,5 +1,6 @@
 .flex-container1 {
   width: 50%;
+  margin: 5px;
   display: flex;
   flex-direction: column;
   flex-direction: column-reverse;
@@ -34,4 +35,13 @@
   align-content: center;
   align-content: space-around;
   align-content: space-between;
+}
+.flex-container1 > div {
+  margin: 5px;
+}
+.flex-container2 > div {
+  margin: 5px;
+}
+.flex-container3 > div {
+  margin: 5px;
 }
