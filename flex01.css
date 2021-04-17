@@ -1,6 +1,5 @@
 .flex-container1 {
   width: 50%;
-  height: 200px;
   display: flex;
   flex-direction: column;
   flex-direction: column-reverse;
@@ -22,7 +21,7 @@
   justify-content: space-between;
 
   /*Cross axis*/
-  height: 400px;
+  height: 200px;
   align-items: stretch; /*Alinhamento padrão*/
   align-items: baseline; /*alinhnamento pela linha da base*/
   align-items: flex-start; /*pelo inicio*/
